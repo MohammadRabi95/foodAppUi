@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/category_bottomnavigation_menuID"
+        android:fontFamily="@font/montserrat"
+        android:title="@string/menu"
+        android:icon="@drawable/ic__15_menu_36dp"
+        android:iconTint="@color/white"
+        ></item>
+<!--    <item-->
+<!--        android:fontFamily="@font/montserrat"-->
+<!--        android:id="@+id/fav_bottomnavigation_menuID"-->
+<!--        android:title="@string/menu"-->
+<!--        android:icon="@drawable/ic_favorite_black_24dp"-->
+<!--        android:iconTint="@color/white"-->
+<!--        ></item>-->
+
+    <item
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/cart_bottomnavigation_menuID"
+        android:title="@string/cart"
+        android:icon="@drawable/ic__16_shopping_cart_36"
+        android:iconTint="@color/white"
+        ></item>
+
+    <item
+        android:id="@+id/profile_bottomnavigation_menuID"
+        android:title="@string/profile"
+        android:icon="@drawable/ic__23_user_36dp"
+        android:iconTint="@color/white"
+        ></item>
+
+    <item
+        android:id="@+id/more_bottomnavigation_menuID"
+        android:title="@string/More"
+        android:icon="@drawable/ic__42_menu36dp"
+        android:iconTint="@color/white"
+        ></item>
+
+
+</menu>

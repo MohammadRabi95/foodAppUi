@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Sky_blue</item>
+        <item name="colorPrimaryDark">@color/Sky_blue</item>
+        <item name="colorAccent">@color/Sky_blue</item>
+    </style>
+
+    <style name="actionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?android:attr/actionBarSize</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+
+
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/voltaire</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Base.Widget.MaterialComponents.TextInputLayout">
+    <item name="android:theme">@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox</item>
+        <item name="boxStrokeColor">@color/Sky_blue</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextAppearance">@style/AppTheme.TextFloatLabelAppearance</item>
+    </style>
+    <style name="AppTheme.TextFloatLabelAppearance" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/Sky_blue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

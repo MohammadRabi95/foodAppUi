@@ -1,0 +1,52 @@
+package com.lescale.restaurant.Classes;
+
+public class Utils {
+
+    public static final String ARABIC = "Arabic";
+    public static final String FRENCH = "French";
+    public static final String ENGLISH = "English";
+    public static final String LANGUAGE = "Language";
+    public static final String SANDWICH = "Sandwich";
+    public static final String BURGERS = "Burgers";
+    public static final String TACOS = "Tacos";
+    public static final String SPECIAL = "Special";
+    public static final String APETIZER = "Aprtizer";
+    public static final String SALADS = "Salads";
+    public static final String PASTAS = "Pastas";
+    public static final String MEAT = "Meat";
+    public static final String GRILL = "Gril";
+    public static final String CHICKEN = "Chicken";
+    public static final String SEAFOOD = "Seafood";
+    public static final String PROMOS = "Promos";
+    public static final String HOT_DRINKS = "Hot_drinks";
+    public static final String JUICES = "Juice";
+    public static final String MILKSHAKES = "Milkshakes";
+    public static final String PIZZA = "Pizza";
+    public static final String DESERT = "Desert";
+    public static final String BREAKFAST = "Breakfast";
+    public static final String CATEGORY = "Category";
+    public static final String FRAGMENT_CASE = "Case";
+    public static final String SETTINGS = "Settings";
+    public static final String LOCAL_LANGUAGE = "Local_language";
+    public static final String USERS_DB = "Users";
+    public static final String USER_INFO = "User_Info";
+    public static final String CART = "Cart";
+    public static final String LOGIN_TOAST_CHECK = "LoginToastCheck";
+    public static final String MENUS_DB = "Menu";
+    public static final String USER_ADDRESS = "Address";
+    public static final String USER_NAME = "UserName";
+    public static final String USER_EMAIL = "UserEmail";
+    public static final String USER_PHONE = "UserPhone";
+    public static final String ALL_ITEMS = "All_Items";
+    public static final String TOTAL_PRICE = "Total_Price";
+    public static final String ORDERS_DB = "Orders";
+    public static final String DEVICE_TOKEN = "Device_Token";
+    public static final String LATITUDE = "Latitude";
+    public static final String LONGITUDE = "Longitude";
+    public static final String DIALOG = "Dialog";
+    public static final String IMG = "img";
+    public static final String isPromoDialogShown = "promodialog";
+    public static final String isAppRanFirstTime = "isAppRanFirstTime";
+    public static String FACEBOOK_URL = "https://www.facebook.com/lescale.org";
+    public static String FACEBOOK_PAGE_ID = "617392858343715";
+}

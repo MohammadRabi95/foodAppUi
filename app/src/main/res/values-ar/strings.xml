@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مطعم ليسكال</string>
+    <string name="creteaccount" translatable="true">فتح حساب !</string>
+    <string name="password" translatable="true">كلمة المرور</string>
+    <string name="enter_your_password" translatable="true">إدخال كلمة المرور</string>
+    <string name="login" translatable="true">تسجيل الدخول</string>
+    <string name="forgot_password" translatable="true">نسيت كلمة المرور ؟</string>
+    <string name="email" translatable="true">بريدك الإلكتروني</string>
+    <string name="sign_up" translatable="true">فتح حساب</string>
+    <string name="username" translatable="true">إسم المستخدم</string>
+    <string name="confirm_password" translatable="true">تأكيد كلمة المرور</string>
+    <string name="phone_num" translatable="true">رقم الهاتف</string>
+    <string name="welcome_to_lescale" translatable="true">مرحبا في مطعم ليسكال</string>
+    <string name="menu" translatable="true">القائمة</string>
+    <string name="home" translatable="true">الرئيسية</string>
+    <string name="profile" translatable="true">الملف الشخصي</string>
+    <string name="cart" translatable="true">حقيبتي</string>
+    <string name="forgotpass" translatable="true">نسيت كلمة المرور</string>
+    <string name="submit" translatable="true">موافق</string>
+    <string name="email_req">عنوان البريد إجباري</string>
+    <string name="password_req">كلمة المرور إجبارية</string>
+    <string name="name_req">الإسم إجباري</string>
+    <string name="cnfrm_pass_req">تأكيد كلمة المرور  إجبارية</string>
+    <string name="pass_mismatch">كلمة المرور غير متطابقة</string>
+    <string name="pass_six_char"> 6أحرف هو الحد الأدنى لكلمة المرور</string>
+    <string name="num_req">رقم الهاتف إجباري</string>
+
+    <string name="Sandwich">ساندويتشات</string>
+    <string name="Burgers">البركر</string>
+    <string name="Tacos">تاكوس</string>
+    <string name="Special">سبيسيال</string>
+    <string name="Entrees">المفتحات</string>
+    <string name="Pates">المعجنات</string>
+    <string name="Viandes">اللحوم</string>
+    <string name="Grillades">المشاوي</string>
+    <string name="Poulets">دجاج</string>
+    <string name="Poissons">سمك و فواكه البحر</string>
+    <string name="Promos">العروض</string>
+    <string name="Boissons_Chaudes">مشروبات ساخنة</string>
+    <string name="Jus">العصائر</string>
+    <string name="Milkshakes">العصائر المخفوقة</string>
+    <string name="Salads">السلطات</string>
+    <string name="Pizza">بيتزا</string>
+    <string name="desert">الحلويات</string>
+    <string name="petit_dejeuner">فطور الصباح</string>
+
+    <string name="home_delivery">توصيل الطلبية</string>
+    <string name="take_away">إستلام الطلبية</string>
+    <string name="click_here_to_get_your_current_location">تحديد موقعك هنا</string>
+    <string name="note">ملاحضة : مبلغ التوصيل يتحدد من طرف إدارة المطعم حسب موقعك</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="add_to_cart">أضف إلى السلة</string>
+
+    <string name="reg_sucess">تمت عملية التسجيل بنجاح ، الرجاء تسجيل الدخول</string>
+    <string name="plslogintocontinue">الرجاء تسجيل الدخول للمواصلة</string>
+    <string name="restpasslink">تم إرسال رابط تغيير كلمة المرور عبر بريدك الإلكتروني</string>
+    <string name="title_activity_maps">الخريطة</string>
+    <string name="cantmapreq">You can\'t make map requests</string>
+    <string name="thisapprequiresgpsENBLE">هذا التطبيق يحتاج إلى تحديد الموقع . الرجاء تفعيله</string>
+    <string name="current_loc">الموقع الحالي</string>
+    <string name="address">العنوان</string>
+    <string name="or">أو</string>
+    <string name="place_order">إرسال الطلب</string>
+    <string name="order_history">قائمة تواريخ الطلبات</string>
+    <string name="log_out">الخروج</string>
+
+    <string name="plzLoginCart">الرجاء تسجيل الدخول للطلب</string>
+    <string name="addedtocart">تمت الإضافة إلى السلة</string>
+    <string name="quantity">الكمية</string>
+    <string name="orderplacedcnfm">تم إرسال الطلبية</string>
+    <string name="addReqForDelivery">العنوان إجباري لخدمة التوصيل</string>
+    <string name="cartEmpty">السلة فارغة</string>
+    <string name="del_succ_msg">تم الحذف</string>
+    <string name="del_cnfm_msg">متأكد من الحذف ؟</string>
+    <string name="date">التاريخ</string>
+    <string name="time">التوقيت</string>
+    <string name="type">الخدمة</string>
+    <string name="total_price">المجموع</string>
+    <string name="please_wait">الرجاء الإنتضار</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="backpress">إضغط مرتين إلى الوراء للخروج</string>
+    <string name="loading">تحميل ....</string>
+    <string name="nopreviosorder">لا يوجد طلبات سابقة</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="signingin">تسجيل الدخول ...</string>
+    <string name="signingUP">فتح حساب ...</string>
+    <string name="placingorder">إرسال الطلبية</string>
+    <string name="emptymenu">\القائمة فارغة ل \</string>
+    <string name="siginingOut">خروج ...</string>
+    <string name="pressagantocall">اضغط مرة أخرى للاتصال</string>
+    <string name="total">\مجموع: \</string>
+    <string name="select">حدد نوع الطلب ، خدمة التوصيل أو الإستلام من المطعم</string>
+    <string name="whatsapp_num">واتساب</string>
+    <string name="whatsapp">واتساب</string>
+    <string name="more">أكثر</string>
+    <string name="presentation">تقديم</string>
+    <string name="presentation_description">مطعم ليسكال في وسط تفرغ زينة ... إرضائكم هدفنا</string>
+    <string name="Presentation">تقديم</string>
+    <string name="Telephone">الهاتف</string>
+    <string name="Whatsapp">واتساب</string>
+    <string name="Email_adress">البريد الإلكتروني</string>
+    <string name="Facebook">فايسبوك</string>
+    <string name="Share">مشاركة التطبيق</string>
+    <string name="Email">البريد الإلكتروني</string>
+    <string name="web">موقع النات</string>
+    <string name="More">أكثر</string>
+    <string name="facebook_app_id">269672974448624</string>
+    <string name="fb_login_protocol_scheme">fb269672974448624</string>
+    <string name="ok">Ok</string>
+    <string name="noDeliverzone">Sorry we do not deliver here</string>
+    <string name="re_order">Re Order</string>
+    <string name="delete">Delete</string>
+    <string name="any_recommendation">Any Recommendation</string>
+    <string name="login_with_mobile_number">Login with Mobile Number</string>
+    <string name="send_code">Send Code</string>
+    <string name="verify">Verify</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="insert_required_information">Insert Required Information</string>
+    <string name="invalidphone">Invalid Phone Number</string>
+    <string name="deliverfee">Delivery Fee</string>
+
+</resources>

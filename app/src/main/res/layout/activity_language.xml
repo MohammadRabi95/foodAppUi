@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context=".Activities.Language">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <RelativeLayout
+        android:id="@+id/relative_homeID"
+        android:background="@color/blue"
+        style="@style/actionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/blue"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Language / اللغة / Langue"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_below="@id/relative_homeID"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:color="@color/white"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/linear_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                >
+                <RelativeLayout
+                    android:padding="20dp"
+                    android:id="@+id/arabic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+                    <com.github.siyamed.shapeimageview.CircularImageView
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:id="@+id/img_arabic"
+                        />
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="العربية"
+                        android:layout_below="@id/img_arabic"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:padding="20dp"
+                    android:id="@+id/french"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    >
+                    <com.github.siyamed.shapeimageview.CircularImageView
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:id="@+id/img_french"
+                        />
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Français"
+                        android:layout_below="@id/img_french"
+                        android:textSize="30sp"
+                        android:textColor="@color/black"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/english"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp">
+
+                    <com.github.siyamed.shapeimageview.CircularImageView
+                        android:id="@+id/img_english"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/img_english"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/montserrat"
+                        android:text="English"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

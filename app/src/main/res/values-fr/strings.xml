@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurant L\'\escale</string>
+    <string name="creteaccount" translatable="true">Créer un compte</string>
+    <string name="password" translatable="true">Mot de passe</string>
+    <string name="enter_your_password" translatable="true">Entrez votre mot de passe</string>
+    <string name="login" translatable="true">Se connecter</string>
+    <string name="forgot_password" translatable="true">mot de passe oublié ?</string>
+    <string name="email" translatable="true">Email</string>
+    <string name="sign_up" translatable="true">S\'\enregistrer</string>
+    <string name="username" translatable="true">Nom d\'utilisateur</string>
+    <string name="confirm_password" translatable="true">Confirmer votre mot de passe</string>
+    <string name="phone_num" translatable="true">Téléphone</string>
+    <string name="welcome_to_lescale" translatable="true">Bienvenus à L\'ESCALE !</string>
+    <string name="menu" translatable="true">Menu</string>
+    <string name="home" translatable="true">Acceuil</string>
+    <string name="profile" translatable="true">Profil</string>
+    <string name="cart" translatable="true">Mon Panier</string>
+    <string name="forgotpass" translatable="true">mot de passe oublié</string>
+    <string name="submit" translatable="true">Soumettre</string>
+    <string name="email_req">Email necessaire</string>
+    <string name="password_req">mot de passe nécessaire</string>
+    <string name="name_req">Nom nécessaire</string>
+    <string name="cnfrm_pass_req">Confirmation de mot de passe nécessaire</string>
+    <string name="pass_mismatch">Le mot de passe ne correspond pas</string>
+    <string name="pass_six_char">mot de passe minimum 6 caractères</string>
+    <string name="num_req">Numéro de téléphone nécessaire</string>
+
+    <string name="Sandwich">Sandwich</string>
+    <string name="Burgers">Burgers</string>
+    <string name="Tacos">Tacos</string>
+    <string name="Special">Spécial</string>
+    <string name="Entrees">Entrées</string>
+    <string name="Pates">Pâtes</string>
+    <string name="Viandes">Viandes</string>
+    <string name="Grillades">Grillades</string>
+    <string name="Poulets">Poulet</string>
+    <string name="Poissons">Poissons</string>
+    <string name="Promos">Promos</string>
+    <string name="Boissons_Chaudes">Boissons Chaudes</string>
+    <string name="Jus">Jus</string>
+    <string name="Milkshakes">Milkshakes</string>
+    <string name="Salads">Salades</string>
+    <string name="Pizza">Pizza</string>
+    <string name="desert">Dessert</string>
+    <string name="petit_dejeuner">Petit Déjeuner</string>
+
+    <string name="home_delivery">Livraison à domicile</string>
+    <string name="take_away">A emporter</string>
+    <string name="click_here_to_get_your_current_location">Votre Localisation ici</string>
+    <string name="note">Note : Le montant de la livraison sera defini par l\'administration du restaurant suivant votre localisation</string>
+    <string name="order_details">Détails de la commande</string>
+    <string name="add_to_cart">Ajouter au Panier</string>
+
+
+    <string name="reg_sucess">Enregistrement réussi , veuillez vous connecter</string>
+    <string name="plslogintocontinue">Veuillez vous connecter pour continuer</string>
+    <string name="restpasslink">Lien de réinitialisation de mot de passe envoyée à votre adresse email</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="cantmapreq">You can\'t make map requests</string>
+    <string name="thisapprequiresgpsENBLE">Cette application nécessite la localisation GPS; voudriez-vous l\'activer ? </string>
+    <string name="current_loc">Localisation actuelle</string>
+    <string name="address">Addresse</string>
+    <string name="or">Ou</string>
+    <string name="place_order">Confirmer ma Commande</string>
+    <string name="order_history">Historique de commandes</string>
+    <string name="log_out">Déconnexion</string>
+
+    <string name="plzLoginCart">Veuillez vous connecter pour Commander</string>
+    <string name="addedtocart">Ajouté au Panier</string>
+    <string name="quantity">Quantité</string>
+    <string name="orderplacedcnfm">Commande Reçue, nous vous contacterons pour confirmer</string>
+    <string name="addReqForDelivery">Adresse nécessaire pour la livraison</string>
+    <string name="cartEmpty">Panier Vide</string>
+    <string name="del_succ_msg">Article supprimé</string>
+    <string name="del_cnfm_msg">Êtes-vous sûr de supprimer cet Article ?</string>
+    <string name="date">Date</string>
+    <string name="time">Heure</string>
+    <string name="type">Service</string>
+    <string name="total_price">Prix Total</string>
+    <string name="please_wait">Patientez SVP</string>
+    <string name="change_language">Changer de langue</string>
+    <string name="backpress">Apuuyez deux fois sur retour pour sortir</string>
+    <string name="loading">Chargement ....</string>
+    <string name="nopreviosorder">Aucune commande précedente</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="signingin">Connexion ....</string>
+    <string name="signingUP">Enregistrement....</string>
+    <string name="placingorder">Envoi de Commande....</string>
+    <string name="emptymenu">\Menu vide pour \</string>
+    <string name="siginingOut">Déconnexion....</string>
+    <string name="pressagantocall">Appuyez à nouveau pour appeler</string>
+    <string name="total">\Total: \</string>
+    <string name="select">Sélectionnez le type de service, la livraison ou à emporter</string>
+    <string name="whatsapp_num">Whatsapp</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="more">Plus</string>
+    <string name="presentation">présentation</string>
+    <string name="presentation_description">Restaurant L\'escale est situé au coeur de Tevragh Zeina ... Votre Satisfaction est la notre</string>
+    <string name="Presentation">Présentation</string>
+    <string name="Telephone">Téléphone</string>
+    <string name="Whatsapp">Whatsapp</string>
+    <string name="Email_adress">Adresse Email</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Share">Partager l\'application</string>
+    <string name="Email">Email</string>
+    <string name="web">Web</string>
+    <string name="More">Plus</string>
+
+    <string name="facebook_app_id">269672974448624</string>
+    <string name="fb_login_protocol_scheme">fb269672974448624</string>
+    <string name="ok">Ok</string>
+    <string name="noDeliverzone">Sorry we do not deliver here</string>
+    <string name="re_order">Re Order</string>
+    <string name="delete">Delete</string>
+    <string name="any_recommendation">Any Recommendation</string>
+    <string name="login_with_mobile_number">Login with Mobile Number</string>
+    <string name="send_code">Send Code</string>
+    <string name="verify">Verify</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="insert_required_information">Insert Required Information</string>
+    <string name="invalidphone">Invalid Phone Number</string>
+    <string name="deliverfee">Delivery Fee</string>
+
+</resources>

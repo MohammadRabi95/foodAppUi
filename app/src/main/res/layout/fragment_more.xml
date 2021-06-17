@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/Presentation"
+            android:textSize="25dp"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:padding="10dp"
+            app:drawableTint="#9C9A9A"
+            android:textColor="#9C9A9A"
+            android:drawableStart="@drawable/ic__24_chefs_hat"
+            android:drawablePadding="20dp"
+            android:id="@+id/presentation"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/presentation_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/happy_monkey"
+            android:text="@string/presentation_description"
+            android:textColor="#9C9A9A"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:id="@+id/more_l"
+            >
+
+
+        <TextView
+            android:id="@+id/telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic__15_phone_call"
+            android:drawablePadding="25dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:padding="10dp"
+            android:text="@string/Telephone"
+            android:textSize="20dp"
+            app:drawableTint="#000000"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/whatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic__07_whatsapp_2"
+            android:drawablePadding="25dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:padding="10dp"
+            android:text="@string/Whatsapp"
+            android:textColor="#35EA16"
+            android:textSize="20dp"
+            app:drawableTint="#35EA16" />
+
+
+        <TextView
+            android:id="@+id/facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic__05_facebook_2"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:padding="10dp"
+            android:text="@string/Facebook"
+            android:textSize="25dp"
+            android:textColor="#3D5AFE"
+            app:drawableTint="#3D5AFE" />
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic__31_earth_grid"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:padding="10dp"
+            android:text="@string/web"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:drawableTint="#000000" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic__10_gmail"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:padding="10dp"
+            android:text="@string/Email"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            app:drawableTint="#000000" />
+
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic__18_share_2"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:padding="10dp"
+            android:text="@string/Share"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            app:drawableTint="#000000" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

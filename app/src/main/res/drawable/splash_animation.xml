@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_list_splash"
+    android:oneshot="true">
+    <item
+        android:drawable="@drawable/ic_chicken15"
+        android:duration="800" />
+    <item
+        android:drawable="@drawable/ic_fish"
+        android:tint="@color/white"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/ic_pizza"
+        android:tint="@color/white"
+        android:duration="700" />
+    <item
+        android:drawable="@drawable/ic_burger"
+        android:tint="@color/white"
+        android:duration="650" />
+    <item
+        android:drawable="@drawable/ic_cafe"
+        android:tint="@color/white"
+        android:duration="650" />
+    <item
+        android:drawable="@drawable/ic_ice"
+        android:tint="@color/white"
+        android:duration="650" />
+    <item
+        android:drawable="@drawable/ic_delivery"
+        android:tint="@color/white"
+        android:duration="650" />
+    <item
+        android:drawable="@drawable/ic_escale1"
+        android:tint="@color/white"
+        android:duration="1000" />
+
+
+</animation-list>

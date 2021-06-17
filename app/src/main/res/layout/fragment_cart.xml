@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".BottomNavigationFragment.Cart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cartRecyclerview"
+        android:layout_marginBottom="10dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:drawablePadding="25dp"
+            android:fontFamily="@font/montserrat"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/delivery_fee"/>
+
+        <ImageView
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/price_cnfirmorder"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Total 24MRU"
+            android:textAlignment="center"
+            android:textColor="#ef0009"
+            android:textSize="25dp"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/any_recommendation"
+            android:textColorHint="@color/darkgray">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:fontFamily="@font/montserrat"
+                android:inputType="text"
+                android:padding="20dp"
+                android:id="@+id/msg_cart"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/delivery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/ic__01_scooter"
+                android:drawablePadding="1dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/home_delivery"
+                android:textColor="@color/darkgray"
+                app:drawableTint="@color/Sky_blue" />
+
+            <RadioButton
+                android:id="@+id/takeaway"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:drawableEnd="@drawable/ic__22_takeaway36"
+                android:drawablePadding="1dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/take_away"
+                android:textColor="@color/darkgray"
+                app:drawableTint="@color/Sky_blue" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="25dp"
+            android:drawableStart="@drawable/ic__23_user_3"
+            android:drawablePadding="25dp"
+            android:text="Name"
+            android:fontFamily="@font/montserrat"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/name_cnfirmorder"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Phone"
+            android:drawableStart="@drawable/ic__12_telephone"
+            android:drawablePadding="25dp"
+            android:fontFamily="@font/montserrat"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/phone_cnfirmorder"/>
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/click_here_to_get_your_current_location"
+            android:fontFamily="@font/montserrat"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            android:id="@+id/location_cnfirmorder"/>
+
+        <TextView
+            android:id="@+id/note_cnfirmorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:drawableStart="@drawable/ic__39_attention"
+            android:drawablePadding="25dp"
+            android:text="@string/note"
+            android:textColor="#ef0009"
+            app:drawableTint="#ef0009"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/placeorder_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/Yellow"
+            android:drawablePadding="25dp"
+            android:fontFamily="@font/montserrat"
+            android:padding="15dp"
+            android:text="@string/place_order"
+            android:textAllCaps="false"
+            app:drawableTint="@color/Sky_blue"
+            android:textColor="@color/Sky_blue"
+            android:textSize="20dp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

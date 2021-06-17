@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_centerHorizontal="true"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:id="@+id/menu_img"
+                android:src="@color/Sky_blue"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:text="Title"
+                    android:layout_marginEnd="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/menu_title"/>
+
+                <TextView
+                    android:text="Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="35dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/darkgray"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/menu_desc"/>
+
+                <TextView
+                    android:id="@+id/price_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="price"
+                    android:textColor="#ef0009"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            >
+            <ImageView
+                android:id="@+id/plus"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:tint="@color/blue"
+                android:src="@drawable/ic__28_add"/>
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/montserrat"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/Yellow"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/minus"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic__05_button_minus"
+                android:tint="@color/blue"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amita</item>
+        <item>@font/audiowide</item>
+        <item>@font/bangers</item>
+        <item>@font/belleza</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/caesar_dressing</item>
+        <item>@font/cagliostro</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/carter_one</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/coiny</item>
+        <item>@font/condiment</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/doppio_one</item>
+        <item>@font/electrolize</item>
+        <item>@font/grand_hotel</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/homemade_apple</item>
+        <item>@font/kalam_light</item>
+        <item>@font/knewave</item>
+        <item>@font/lemonada_light</item>
+        <item>@font/montserrat</item>
+        <item>@font/rajdhani_light</item>
+        <item>@font/rock_salt</item>
+        <item>@font/trade_winds</item>
+        <item>@font/ubuntu_light</item>
+        <item>@font/vampiro_one</item>
+        <item>@font/voltaire</item>
+        <item>@font/wallpoet</item>
+    </array>
+</resources>

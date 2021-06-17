@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "917515540035",
+    "firebase_url": "https://lescal-restaurant.firebaseio.com",
+    "project_id": "lescal-restaurant",
+    "storage_bucket": "lescal-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917515540035:android:ff588552ef7739c94f66f6",
+        "android_client_info": {
+          "package_name": "com.lescale.lescaleadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917515540035-qfojusa5s11n8idb1stf9icoganqbdfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOx9wejfMe86A5laH8-nFY2mlAPCkXYr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917515540035-qfojusa5s11n8idb1stf9icoganqbdfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917515540035:android:92d91376523803e14f66f6",
+        "android_client_info": {
+          "package_name": "com.lescale.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917515540035-qfojusa5s11n8idb1stf9icoganqbdfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOx9wejfMe86A5laH8-nFY2mlAPCkXYr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917515540035-qfojusa5s11n8idb1stf9icoganqbdfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
